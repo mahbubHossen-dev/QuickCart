@@ -7,7 +7,7 @@ if(!cached){
 }
 
 async function connectDB(){
-    if(cached){
+    if(cached.conn){
         return cached.conn
     }
 
